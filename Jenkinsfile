@@ -4,7 +4,7 @@ pipeline {
 		mavenHome = tool 'apache-maven-3.6.3'
 	}
 	tools {
-		jdk 'java-17'
+		jdk 'jdk-17.0.2'
 	}
 	stages {
 		stage('Build'){
